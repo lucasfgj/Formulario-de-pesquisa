@@ -1,0 +1,70 @@
+form {
+    background-color: rgb(0, 0, 128);
+    width: 70%;
+    border: none;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../Prova-1/background.jpg);
+    margin: 0 auto;
+    color: aliceblue;
+    width: 80%;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.form-control {
+    width: 100%;
+    height: 3vh;
+    border-radius: 6px;
+    border-color: rgb(25, 25, 112);
+}
+
+div select {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: grey;
+    font-size: 1.6vh;
+
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    align-items: center;
+}
+
+textarea {
+    width: 99%;
+    height: 5rem;
+
+}
+
+div button {
+    width: 40%;
+    margin: 3em auto;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    color: aliceblue;
+    border: 0.5px rgb(5, 145, 163);
+}
